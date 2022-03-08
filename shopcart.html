@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho | SOOLQUEIJO</title>
+    <!--img favicons-->
+    <link rel="icon" href="assets/img/logotipo.png">
+
+    <!---Style -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!--Redirecionamento CSS-->
+    <link href="assets/CSS/shopstyle.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS  -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1><b>CARRINHO DE COMPRAS</b></h1>
+
+    <div class="shopping-cart">
+
+        <div class="column-labels">
+            <label class="product-image">Imagem</label>
+            <label class="product-details">Produto</label>
+            <label class="product-price">Preço</label>
+            <label class="product-quantity">Quantidade</label>
+            <label class="product-removal">Remover</label>
+            <label class="product-line-price">Total</label>
+        </div>
+
+        <div class="product">
+            <div class="product-image">
+                <img src="assets/img/food2.png">
+            </div>
+            <div class="product-details">
+                <div class="product-title">Big Burger</div>
+                <p class="product-description"> 1KG de gordura </p>
+            </div>
+            <div class="product-price">19.89</div>
+            <div class="product-quantity">
+                <input type="number" value="1" min="1">
+            </div>
+            <div class="product-removal">
+                <button class="remove-product">
+            Remover
+          </button>
+            </div>
+            <div class="product-line-price">19.89</div>
+        </div>
+
+        <div class="product">
+            <div class="product-image">
+                <img src="assets/img/food1.png">
+            </div>
+            <div class="product-details">
+                <div class="product-title">Camarão Empanado</div>
+                <p class="product-description">40gramas</p>
+            </div>
+            <div class="product-price">79.99</div>
+            <div class="product-quantity">
+                <input type="number" value="1" min="1">
+            </div>
+            <div class="product-removal">
+                <button class="remove-product">
+            Remover
+          </button>
+            </div>
+            <div class="product-line-price">79.99</div>
+        </div>
+
+        <div class="totals">
+            <div class="totals-item">
+                <label>Subtotal</label>
+                <div class="totals-value" id="cart-subtotal">332,07</div>
+            </div>
+            <div class="totals-item">
+                <label>Desconto (5%)</label>
+                <div class="totals-value" id="cart-tax">16,63</div>
+            </div>
+
+            <div class="totals-item">
+                <label>Cashback</label>
+                <div class="totals-value" id="cart-shipping">5.00</div>
+            </div>
+            <div class="totals-item totals-item-total">
+                <label>Total</label>
+                <div class="totals-value" id="cart-total">330.44</div>
+            </div>
+        </div>
+
+
+        <button class="checkout">Finalizar Pedido</button>
+
+
+
+    </div>
+
+
+    <!--SCRIPT OPEN-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!--END SCRIPT-->
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+    <!-- javascript RED  -->
+    <script src="assets/js/shopcart.js"></script>
+</body>
+
+</html>
